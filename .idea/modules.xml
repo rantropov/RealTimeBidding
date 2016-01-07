@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$USER_HOME$/git/AdvertisingOptimization/.idea/AdvertisingOptimization.iml" filepath="$USER_HOME$/git/AdvertisingOptimization/.idea/AdvertisingOptimization.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/RealTimeBidding.iml" filepath="$PROJECT_DIR$/.idea/RealTimeBidding.iml" />
     </modules>
   </component>
 </project>
