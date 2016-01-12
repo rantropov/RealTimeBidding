@@ -37,8 +37,8 @@
       <file leaf-file-name="discussions.rst" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Thesis/discussions.rst">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.94947994">
-              <caret line="70" column="4" selection-start-line="70" selection-start-column="4" selection-end-line="70" selection-end-column="4" />
+            <state vertical-scroll-proportion="0.8989599">
+              <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -471,7 +471,13 @@
       <option name="project" value="LOCAL" />
       <updated>1452209560778</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update discussion log">
+      <created>1452562612291</created>
+      <option name="number" value="00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1452562612291</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -523,7 +529,8 @@
     <MESSAGE value="skeleton of bidder" />
     <MESSAGE value="create SSP and MarketPlace skeleton" />
     <MESSAGE value="click though log" />
-    <option name="LAST_COMMIT_MESSAGE" value="click though log" />
+    <MESSAGE value="update discussion log" />
+    <option name="LAST_COMMIT_MESSAGE" value="update discussion log" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -556,8 +563,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Thesis/discussions.rst">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.94947994">
-          <caret line="70" column="4" selection-start-line="70" selection-start-column="4" selection-end-line="70" selection-end-column="4" />
+        <state vertical-scroll-proportion="0.8989599">
+          <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
           <folding />
         </state>
       </provider>

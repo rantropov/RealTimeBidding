@@ -69,3 +69,10 @@ According to this, can we consider an adaptive web service as a MI system?
 
 Best,
 Yubo
+
+
+Just two more questions...
+
+Is the necessary condition of a MI system is to have at least one deterministic module that provides reliable insight? (- have the system detect when the model does not predict the data well enough.)
+
+I have another question: can both party in a MI system be machines? I attached a example in this mail, if I design a MI system that create connections between web resources, should I consider the green circled part as a MI system or the red circled part as a MI System?
