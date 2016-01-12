@@ -1,3 +1,13 @@
+cheat sheet:
+http://openalea.gforge.inria.fr/doc/openalea/doc/_build/html/source/sphinx/rest_syntax.html
+
+# with overline, for parts
+* with overline, for chapters
+=, for sections
+-, for subsections
+^, for subsubsections
+“, for paragraphs
+
 Bold/Italics
 ============
 

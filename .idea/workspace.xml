@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34cd67e0-f635-4a53-9367-c755630ba857" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Thesis/OnlineAdvertising.rst" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Thesis/WebResourceDescriptionFramework.rst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Thesis/discussions.rst" afterPath="$PROJECT_DIR$/Thesis/discussions.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Thesis/Restructuredformat.rst" afterPath="$PROJECT_DIR$/Thesis/Restructuredformat.rst" />
     </list>
     <ignored path="RealTimeBidding.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -34,11 +36,41 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="discussions.rst" pinned="false" current-in-tab="true">
+      <file leaf-file-name="discussions.rst" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Thesis/discussions.rst">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.8989599">
+            <state vertical-scroll-proportion="0.0">
               <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Mainpaper.rst" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Thesis/Mainpaper.rst">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="0" column="3" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="OnlineAdvertising.rst" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Thesis/OnlineAdvertising.rst">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.21278942">
+              <caret line="63" column="88" selection-start-line="63" selection-start-column="88" selection-end-line="63" selection-end-column="88" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="WebResourceDescriptionFramework.rst" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Thesis/WebResourceDescriptionFramework.rst">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0">
+              <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -66,14 +98,19 @@
         <option value="$PROJECT_DIR$/Thesis/Mainpaper.rst" />
         <option value="$PROJECT_DIR$/MarketPlace/click_though_log.py" />
         <option value="$PROJECT_DIR$/Thesis/discussions.rst" />
+        <option value="$PROJECT_DIR$/Thesis/RTB.rst" />
+        <option value="$PROJECT_DIR$/Thesis/Restructuredformat.rst" />
+        <option value="$PROJECT_DIR$/Thesis/OnlineAdvertising.rst" />
+        <option value="$PROJECT_DIR$/Thesis/WebResourceDescription.rst" />
+        <option value="$PROJECT_DIR$/Thesis/WebResourceDescriptionFramework.rst" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="2051" />
-    <option name="y" value="114" />
-    <option name="width" value="1400" />
-    <option name="height" value="833" />
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1936" />
+    <option name="height" value="1096" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -477,7 +514,13 @@
       <option name="project" value="LOCAL" />
       <updated>1452562612291</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="update discussion log">
+      <created>1452562939325</created>
+      <option name="number" value="00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1452562939325</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView">
@@ -490,10 +533,10 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="2051" y="114" width="1400" height="833" extended-state="0" />
+    <frame x="1912" y="-8" width="1936" height="1096" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34801763" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24973656" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32984293" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -545,14 +588,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Thesis/Mainpaper.rst">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="3" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/MarketPlace/click_though_log.py">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -563,8 +598,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Thesis/discussions.rst">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.8989599">
+        <state vertical-scroll-proportion="0.0">
           <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Thesis/Mainpaper.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="3" selection-start-line="0" selection-start-column="3" selection-end-line="0" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Thesis/WebResourceDescriptionFramework.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="5" column="0" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Thesis/Restructuredformat.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.03740374">
+          <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Thesis/OnlineAdvertising.rst">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.21278942">
+          <caret line="63" column="88" selection-start-line="63" selection-start-column="88" selection-end-line="63" selection-end-column="88" />
           <folding />
         </state>
       </provider>
