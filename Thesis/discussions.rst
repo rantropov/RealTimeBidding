@@ -21,3 +21,51 @@ In order to achieve this, I need a evaluation or a heuristic function to guide t
 People will argue that reinforcement learning and deep learning could address the dynamic problems, in theoretic yes - if we have a large enough finite training data.
 
 I don't know if it's possible that we can have a MI system to be used in real-time scenario and require minimum or reasonable amount of interaction from human.
+
+
+2016-01-11
+==========
+
+Quoting Wolfgang Stuerzlinger <w.s@sfu.ca>:
+
+> 2 things come immediately to mind:
+> - have the system detect when the model does not predict the data
+> well enough.
+> - give the user the ability to add additional information to the model
+>
+> In both cases the system has to give the user some options as to how
+> to adapt the model, e.g., by offering potential predictive terms that
+> can be added to the model. Then let the user decide which one to add.
+> This also means that any additions need to be easily understandable
+> by the user. This likely means a hybrid model, say deep learning plus
+> simple linear terms added by user. In essence, this allows the user
+> to bridge the short-time deficiency when there is not enough data for
+> the system to learn the adaptation by itself.
+>
+> Wolfgang
+
+
+
+Hi professor Wolfgang,
+
+Thank you for your advises!
+
+
+Up to this point, I'm confused about the difference between machine learning and MI system, both of them require labeled data to train the model, the machine learning application learns what human think is correct, it takes inputs that manually picked/labeled by human.
+
+
+> - have the system detect when the model does not predict the data
+> well enough.
+I understand that MI system can build connection between machine and human, it also provides feedback and reports. But we can also achieve this by set a threshold for the evaluation metrics of machine learning applications. What's the main difference?
+
+
+> - give the user the ability to add additional information to the model
+The online advertising system is a feedback system, human provide feedback to the system of whether the impression is a successful impression or not by click the ads.
+And this:
+> offering potential predictive terms that can be added to the model. Then let the user decide which one to add.
+can be implemented as presenting different impressions to user and let user to decide/click the impression that they think is most related to their interests. From this view, it's more like a machine learning application that update the model with incoming labeled data.
+
+According to this, can we consider an adaptive web service as a MI system?
+
+Best,
+Yubo

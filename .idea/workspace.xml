@@ -2,12 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34cd67e0-f635-4a53-9367-c755630ba857" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/DSP/Advertisers/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/MarketPlace/click_though_log.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/SSP/Publishers/__init__.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Thesis/discussions.rst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Thesis/Mainpaper.rst" afterPath="$PROJECT_DIR$/Thesis/Mainpaper.rst" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Thesis/discussions.rst" afterPath="$PROJECT_DIR$/Thesis/discussions.rst" />
     </list>
     <ignored path="RealTimeBidding.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -28,11 +24,21 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="click_though_log.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="click_though_log.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/MarketPlace/click_though_log.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.25260028">
-              <caret line="10" column="63" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
+            <state vertical-scroll-proportion="0.0">
+              <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="discussions.rst" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Thesis/discussions.rst">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.94947994">
+              <caret line="70" column="4" selection-start-line="70" selection-start-column="4" selection-end-line="70" selection-end-column="4" />
               <folding />
             </state>
           </provider>
@@ -57,9 +63,9 @@
         <option value="$USER_HOME$/git/RealTimeBidding/DSP/DecisionMaker/bidder.py" />
         <option value="$USER_HOME$/git/AdvertisingOptimization/Mainpaper.rst" />
         <option value="$USER_HOME$/git/AdvertisingOptimization/Restructuredformat.rst" />
-        <option value="$PROJECT_DIR$/Thesis/discussions.rst" />
         <option value="$PROJECT_DIR$/Thesis/Mainpaper.rst" />
         <option value="$PROJECT_DIR$/MarketPlace/click_though_log.py" />
+        <option value="$PROJECT_DIR$/Thesis/discussions.rst" />
       </list>
     </option>
   </component>
@@ -459,7 +465,13 @@
       <option name="project" value="LOCAL" />
       <updated>1452193651242</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="click though log">
+      <created>1452209560778</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1452209560778</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -510,7 +522,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="skeleton of bidder" />
     <MESSAGE value="create SSP and MarketPlace skeleton" />
-    <option name="LAST_COMMIT_MESSAGE" value="create SSP and MarketPlace skeleton" />
+    <MESSAGE value="click though log" />
+    <option name="LAST_COMMIT_MESSAGE" value="click though log" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -533,18 +546,18 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Thesis/discussions.rst">
+    <entry file="file://$PROJECT_DIR$/MarketPlace/click_though_log.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.47994056">
-          <caret line="19" column="0" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        <state vertical-scroll-proportion="0.0">
+          <caret line="14" column="1" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/MarketPlace/click_though_log.py">
+    <entry file="file://$PROJECT_DIR$/Thesis/discussions.rst">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.25260028">
-          <caret line="10" column="63" selection-start-line="10" selection-start-column="63" selection-end-line="10" selection-end-column="63" />
+        <state vertical-scroll-proportion="0.94947994">
+          <caret line="70" column="4" selection-start-line="70" selection-start-column="4" selection-end-line="70" selection-end-column="4" />
           <folding />
         </state>
       </provider>
