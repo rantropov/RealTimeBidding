@@ -1,8 +1,17 @@
 This chapter is about online advertising
 
 
-Overview of online advertising platform
-#######################################
+Overview of computational advertising
+#####################################
+
+The online advertising spent exceeded other advertising forms in mid 2012. The increase clearly shows the trend of future advertising form.
+Online advertising is a rising advertising market. The market share grows by 15% - 20% every year [19]. The annual revenues in 2014 reaches 49.45 billion.
+Performance based advertising contributes 66% in total advertising revenue in 2014 compare to 46% in 2005. CPM pricing model drops from 46% in 2005 to 33% in 2014.
+On the other hand, mobile advertising revenue increased from 1.6 billion to 12.5 billion in 2014 which grows 110% from 2011.
+
+This trend reflects both consumer and advertiser's preference, computational advertising involves cutting edge technologies such as machine learning, data mining, natural language processing and optimization to perform fine grind impression in order to maximize advertising performance.
+
+
 
 [16]
 
@@ -95,7 +104,7 @@ References
 
 [18] Raeder, Troy, et al. "Design principles of massive, robust prediction systems." Proceedings of the 18th ACM SIGKDD international conference on Knowledge discovery and data mining. ACM, 2012.
 
-
+[19] IAB Internet Advertising Revenue Report
 
 
 
