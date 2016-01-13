@@ -4,14 +4,6 @@ This chapter is about online advertising
 Overview of computational advertising
 #####################################
 
-Introduction to online advertising
-**********************************
-
-Online advertising is a form of marketing which uses internet as medium to deliver advertising or promotional message to internet browsers. It includes *Email Marketing*, *Search Engine Marketing*, *Social Media Marketing*, *Display Advertising* and *Mobile Marketing*. [20]
-
-Similar to other advertising media, online advertising also involves publisher and advertiser.
-A publisher is a web resource owner such like web page or search engine which present advertisement to internet user though it's content
-
 Market share
 ************
 The online advertising spent exceeded other advertising forms in mid 2012. The increase clearly shows the trend of future advertising form.
@@ -22,6 +14,63 @@ The trend also shows shifting of online advertising model from offline contract 
 The rapid development of computation power has made the real-time computational advertising became achievable.
 Computational advertising involves cutting edge technologies such as machine learning, data mining, natural language processing and optimization to present fine grind impression to end users in order to optimize advertising performance.
 Advertisers are able to identify characteristics and interests of the target audience and ads exchange deliveries best-match ads impression to browsers to increase total revenue of both parties (advertiser and publisher).
+
+
+Introduction to online advertising
+**********************************
+
+Online advertising is a form of marketing which uses internet as medium to deliver advertising or promotional message to internet browsers. [20]
+
+
+Taxonomy
+========
+Online advertising can be categorized by **delivery method** and **compensation method**.
+
+By delivery method
+------------------
+
+According to **delivery method** taxonomy, online advertising can be categorized into following categories:
+
+ * Email Marketing
+ * Search Engine Marketing
+ * Social Media Marketing
+ * Display Advertising
+ * Mobile Marketing
+
+
+Email Marketing
+^^^^^^^^^^^^^^^
+
+Search Engine Marketing
+^^^^^^^^^^^^^^^^^^^^^^^
+
+Social Media Marketing
+^^^^^^^^^^^^^^^^^^^^^^
+
+Display Advertising
+^^^^^^^^^^^^^^^^^^^
+
+Mobile Marketing
+^^^^^^^^^^^^^^^^
+
+By compensation method
+----------------------
+
+According to **compensation method** taxonomy, online advertising can be categorized into following categories:
+
+ * Performance-based advertising
+ * Contract-based advertising
+
+Performance-based advertising
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+Contract-based advertising
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+
+Similar to other advertising media, online advertising also involves publisher and advertiser.
+A publisher is a web resource owner such like web page or search engine which present advertisements to internet user though it's content
+
 
 Components of performance-based advertising platform
 ****************************************************
