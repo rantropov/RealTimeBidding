@@ -7,9 +7,12 @@ Overview of computational advertising
 The online advertising spent exceeded other advertising forms in mid 2012. The increase clearly shows the trend of future advertising form.
 Online advertising is a rising advertising market. The market share grows by 15% - 20% every year [19]. The annual revenues in 2014 reaches 49.45 billion.
 Performance based advertising contributes 66% in total advertising revenue in 2014 compare to 46% in 2005. CPM pricing model drops from 46% in 2005 to 33% in 2014.
-On the other hand, mobile advertising revenue increased from 1.6 billion to 12.5 billion in 2014 which grows 110% from 2011.
+The trend also shows shifting of online advertising model from offline contract pricing model to online real-time pricing model.
 
-This trend reflects both consumer and advertiser's preference, computational advertising involves cutting edge technologies such as machine learning, data mining, natural language processing and optimization to perform fine grind impression in order to maximize advertising performance.
+The rapid development of computation power has made the real-time computational advertising became achievable.
+Computational advertising involves cutting edge technologies such as machine learning, data mining, natural language processing and optimization to present fine grind impression to end users in order to optimize advertising performance.
+Advertisers are able to identify characteristics and interests of the target audience and ads exchange deliveries best-match ads impression to browsers to increase total revenue of both parties (advertiser and publisher).
+
 
 
 
