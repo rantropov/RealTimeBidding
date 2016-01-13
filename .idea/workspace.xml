@@ -2,9 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34cd67e0-f635-4a53-9367-c755630ba857" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Thesis/OnlineAdvertisingPlatform/DSP/DemandSidePlatform.rst" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/Thesis/OnlineAdvertising.rst" afterPath="$PROJECT_DIR$/Thesis/OnlineAdvertisingPlatform/Index.rst" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Thesis/OnlineAdvertisingPlatform/DSP/DemandSidePlatform.rst" afterPath="$PROJECT_DIR$/Thesis/OnlineAdvertisingPlatform/DSP/DemandSidePlatform.rst" />
     </list>
     <ignored path="RealTimeBidding.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -577,7 +576,13 @@
       <option name="project" value="LOCAL" />
       <updated>1452630106418</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="update">
+      <created>1452651573530</created>
+      <option name="number" value="00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1452651573530</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView">
