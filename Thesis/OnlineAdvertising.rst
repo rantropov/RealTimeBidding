@@ -64,6 +64,11 @@ According to **compensation method** taxonomy, online advertising can be categor
 Performance-based advertising
 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
+.. date::2016-Jan-14
+
+Performance-base advertising is a marketing form that Ads buyer pays only when measurable results events happen.
+In performance-based advertising, advertiser, publisher and ads Exchange build up a community response of common interests and supports. Three party are dedicate to deliver high quality impressions to target audience and generate high response events. In order to achieve this, the common interests community has to best predict target audience's characteristics and interests,
+
 Contract-based advertising
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
