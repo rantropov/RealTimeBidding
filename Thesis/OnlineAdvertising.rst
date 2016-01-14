@@ -20,7 +20,7 @@ Introduction to online advertising
 **********************************
 
 Online advertising is a form of marketing which uses internet as medium to deliver advertising or promotional message to internet browsers. [20]
-
+Similar to other advertising media, online advertising has publishers and advertisers.
 
 Taxonomy
 ========
@@ -66,15 +66,29 @@ Performance-based advertising
 
 .. date::2016-Jan-14
 
-Performance-base advertising is a marketing form that Ads buyer pays only when measurable results events happen.
-In performance-based advertising, advertiser, publisher and ads Exchange build up a community response of common interests and supports. Three party are dedicate to deliver high quality impressions to target audience and generate high response events. In order to achieve this, the common interests community has to best predict target audience's characteristics and interests,
+Performance-base advertising (also called real-time advertising) is a marketing form that Ads buyer pays only when measurable results events happen.
+In performance-based advertising, advertiser, publisher and ads Exchange build up a community response of common interests and supports. Three party are dedicate to deliver high quality impressions to target audience and generate high response events. In order to achieve this, the community has to best predict target audience's characteristics and interests. This problem has attracted both industrial and academic attentions. Solutions involve cutting-edge technologies such like machine learning, data mining, optimization etc.
+Performance-based advertising are able to show fine grind impression to real-time user according to user interests and characteristics. Such has better results.
+
+.. To be continue..
+
+The performance-base advertising has taken the industry leading marketing form, the proportion of performance-base advertising revenue in online advertising has increased from 46% to 66% in past 10 years.
+
+The components of online performance-base advertising platform are follows:
+
+ * **Publisher**: A publisher is web resource such like web page or search engine which present advertisements to internet browser (consumer) though it's content or service.
+ * **Advertiser**: A advertiser is the party has demands on marketing and branding, advertiser is seeking to buy impression opportunities to show it's creative to target audience.
+ * **Ads Exchange**: Ads Exchange gathers impressions and sell them in a second-price (true value) auction basis.
+ * **Data Management Platform and Data Provider**: DMP and DP manage and provide data to demands side
+ * **Demand Side Platform**:
+ * **Supply Side Platform**:
 
 Contract-based advertising
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. date::2016-Jan-14
 
+The old form of online advertising is contract-based advertising, also called offline advertising. In this pricing model, impressions are negotiated and sold in packs offline,
 
-Similar to other advertising media, online advertising also involves publisher and advertiser.
-A publisher is a web resource owner such like web page or search engine which present advertisements to internet user though it's content
 
 
 Components of performance-based advertising platform
