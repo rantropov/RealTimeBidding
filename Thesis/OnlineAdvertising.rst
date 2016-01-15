@@ -41,8 +41,15 @@ According to **delivery method** taxonomy, online advertising can be categorized
 Email Marketing
 ^^^^^^^^^^^^^^^
 
+Email marketing is directly marketing a commercial message to a group of people using email. In its broadest sense, every email sent to a potential or current customer could be considered email marketing. It usually involves using email to send ads, request business, or solicit sales or donations, and is meant to build loyalty, trust, or brand awareness. Email marketing can be done to either sold lists or a current customer database. Broadly, the term is usually used to refer to sending email messages with the purpose of enhancing the relationship of a merchant with its current or previous customers, to encourage customer loyalty and repeat business, acquiring new customers or convincing current customers to purchase something immediately, and adding advertisements to email messages sent by other companies to their customers.
+
+Madison Logic posted global data in April 2014 that claimed 122 billion emails are sent every hour
+
 Search Engine Marketing
 ^^^^^^^^^^^^^^^^^^^^^^^
+
+**Keyword search** is the main form of search engine marketing, search engine
+
 
 Social Media Marketing
 ^^^^^^^^^^^^^^^^^^^^^^
@@ -74,6 +81,22 @@ Performance-based advertising are able to show fine grind impression to real-tim
 
 The performance-base advertising has taken the industry leading marketing form, the proportion of performance-base advertising revenue in online advertising has increased from 46% to 66% in past 10 years.
 
+
+
+Contract-based advertising
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+.. date::2016-Jan-14
+
+The old form of online advertising is contract-based advertising, also called offline advertising. In this pricing model, impressions are negotiated and sold in packs in offline in a fixed price.
+Contract-based advertising unable to target real-time audience, the publisher shows impression to browsers in a time period or impression count basis. Also because the contract is negotiated offline before ads campaign, the system unable lacks flexibility to fit audience's interests. Thus resulted in a very low response rate.
+
+.. To be continue..
+
+
+
+Components of performance-based advertising platform
+****************************************************
+
 The components of online performance-base advertising platform are follows:
 
  * **Publisher**: A publisher is web resource such like web page or search engine which present advertisements to internet browser (consumer) though it's content or service.
@@ -82,18 +105,6 @@ The components of online performance-base advertising platform are follows:
  * **Data Management Platform and Data Provider**: DMP and DP manage and provide data to demands side
  * **Demand Side Platform**:
  * **Supply Side Platform**:
-
-Contract-based advertising
-^^^^^^^^^^^^^^^^^^^^^^^^^^
-.. date::2016-Jan-14
-
-The old form of online advertising is contract-based advertising, also called offline advertising. In this pricing model, impressions are negotiated and sold in packs offline,
-
-
-
-Components of performance-based advertising platform
-****************************************************
-
 
 [16]
 
@@ -137,6 +148,25 @@ Audience targeting
 ******************
 
 [6] [8] [9] [10] [11] [12] [16]
+
+
+Budget Delivery/Allocation Optimization
+***************************************
+
+.. date::2016-Jan-14
+
+The key issue of budge allocation problem is to learn the performance metric distribution.
+Once obtained the performance distribution, advertisers can optimize their budget delivery according to the distribution.
+
+Performance metrics include:
+
+ * Return on investment (ROI)
+ * Click though rate (CTR)
+
+
+Couple things has to be keep in mind:
+
+ * The budget delivery is to optimize the advertiser's goal, the advertiser's goal may differ from performance metrics
 
 
 Supplier side platform
@@ -190,4 +220,8 @@ References
 
 [20] Online advertising Wikipedia entry: https://en.wikipedia.org/wiki/Online_advertising
 
+.. meta::overview of rtb and online advertising
 
+[21] Yuan, Yong, et al. "A survey on real time bidding advertising." Service Operations and Logistics, and Informatics (SOLI), 2014 IEEE International Conference on. IEEE, 2014.
+
+[22] Chatwin, Richard E. "An overview of computational challenges in online advertising." American Control Conference (ACC), 2013. IEEE, 2013.
