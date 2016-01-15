@@ -153,6 +153,10 @@ Audience targeting
 Budget Delivery/Allocation Optimization
 ***************************************
 
+.. meta::TODO
+
+The KPI selection for budget delivery - heuristic function
+
 .. date::2016-Jan-14
 
 The key issue of budge allocation problem is to learn the performance metric distribution.
