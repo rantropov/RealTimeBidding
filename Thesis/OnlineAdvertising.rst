@@ -73,7 +73,7 @@ Performance-based advertising
 
 .. date::2016-Jan-14
 
-Performance-base advertising (also called real-time advertising) is a marketing form that Ads buyer pays only when measurable results events happen.
+Performance-base advertising (also called real-time advertising) is a marketing form that Ads buyer pays only when measurable results events happen. In performance-base advertising, an ads impression is sold in DSP and ads Exchange in an GSP (generalized second price) auction basis. DSP and ads Exchange gather all information about publisher, user to make the best decision for advertisers.
 In performance-based advertising, advertiser, publisher and ads Exchange build up a community response of common interests and supports. Three party are dedicate to deliver high quality impressions to target audience and generate high response events. In order to achieve this, the community has to best predict target audience's characteristics and interests. This problem has attracted both industrial and academic attentions. Solutions involve cutting-edge technologies such like machine learning, data mining, optimization etc.
 Performance-based advertising are able to show fine grind impression to real-time user according to user interests and characteristics. Such has better results.
 
@@ -87,7 +87,7 @@ Contract-based advertising
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 .. date::2016-Jan-14
 
-The old form of online advertising is contract-based advertising, also called offline advertising. In this pricing model, impressions are negotiated and sold in packs in offline in a fixed price.
+The old form of online advertising is contract-based advertising, also called direct buy market. In this pricing model, impressions and prices are negotiated in advance according to negotiations between publishers and advertisers directly in off-line.
 Contract-based advertising unable to target real-time audience, the publisher shows impression to browsers in a time period or impression count basis. Also because the contract is negotiated offline before ads campaign, the system unable lacks flexibility to fit audience's interests. Thus resulted in a very low response rate.
 
 .. To be continue..
@@ -106,6 +106,9 @@ The components of online performance-base advertising platform are follows:
  * **Demand Side Platform**:
  * **Supply Side Platform**:
 
+Second Price Auction
+====================
+
 [16]
 
 Evaluation and performance metrics
@@ -113,6 +116,10 @@ Evaluation and performance metrics
 
 [3] [17]
 
+Price a impression
+******************
+
+Each incoming impression associate with a suggest bidding price, the suggested bidding price is calculated by evaluate the cost-per-click or cost-per-action metrics. Advertiser and DSP also able to submit a price based on their own evaluation metrics. 
 
 CTR - Click though rate
 ***********************
