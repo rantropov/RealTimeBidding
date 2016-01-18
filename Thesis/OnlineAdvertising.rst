@@ -119,10 +119,12 @@ Evaluation and performance metrics
 Price a impression
 ******************
 
-Each incoming impression associate with a suggest bidding price, the suggested bidding price is calculated by evaluate the cost-per-click or cost-per-action metrics. Advertiser and DSP also able to submit a price based on their own evaluation metrics. 
+Each incoming impression associate with a suggest bidding price, the suggested bidding price is calculated by evaluate the cost-per-click or cost-per-action metrics. Advertiser and DSP also able to submit a price based on their own evaluation metrics.
 
 CTR - Click though rate
 ***********************
+
+The most common strategy to price an impression is to use CTR and CVR. The campaign performance directly depends on how accuracy to predict the CTR and CVR. If CTR and CVR are over estimated, the advertiser will waste budgets on each impression and end up with less impressions. On the other hand, if the CTR and CVR are under estimated, the advertiser will miss high quality impressions and can't achieve their campaign goal.
 
 Predict CTR
 ***********
