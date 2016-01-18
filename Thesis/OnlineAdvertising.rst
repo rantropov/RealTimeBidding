@@ -113,11 +113,12 @@ Evaluation and performance metrics
 
 [3] [17]
 
-Ads quality
-***********
 
-CTR = Click though rate
-=======================
+CTR - Click though rate
+***********************
+
+Predict CTR
+***********
 
 [5] [15]
 
@@ -139,8 +140,11 @@ Bidding optimization
 
 [4] [15] [16]
 
-Budget constrained ads delivery
-===============================
+Multi objective optimization
+============================
+
+A linear programming approach
+-----------------------------
 
 [7] [2]
 
@@ -173,6 +177,14 @@ Couple things has to be keep in mind:
  * The budget delivery is to optimize the advertiser's goal, the advertiser's goal may differ from performance metrics
 
 
+
+Learning bidding landscape
+==========================
+
+
+
+
+
 Supplier side platform
 ######################
 
@@ -194,7 +206,7 @@ References
 
 [4] Zhang, Weinan, Shuai Yuan, and Jun Wang. "Optimal real-time bidding for display advertising." Proceedings of the 20th ACM SIGKDD international conference on Knowledge discovery and data mining. ACM, 2014.
 
-[5] Lee, Kuang=chih, et al. "Estimating conversion rate in display advertising from past erformance data." Proceedings of the 18th ACM SIGKDD international conference on Knowledge discovery and data mining. ACM, 2012.
+[5] Lee, Kuang-chih, et al. "Estimating conversion rate in display advertising from past erformance data." Proceedings of the 18th ACM SIGKDD international conference on Knowledge discovery and data mining. ACM, 2012.
 
 [7] Lee, Kuang-Chih, Ali Jalali, and Ali Dasdan. "Real time bid optimization with smooth budget delivery in online advertising." Proceedings of the Seventh International Workshop on Data Mining for Online Advertising. ACM, 2013.
 
