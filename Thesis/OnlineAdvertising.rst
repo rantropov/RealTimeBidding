@@ -183,14 +183,15 @@ Performance metrics include:
 
 Couple things has to be keep in mind:
 
- * The budget delivery is to optimize the advertiser's goal, the advertiser's goal may differ from performance metrics
+ * The budget delivery is to optimize the advertiser's goal, the advertiser's goal sometimes are differ from budget delivery goals
 
 
 
 Learning bidding landscape
 ==========================
 
-
+Bidding Distribution Forecasting
+================================
 
 
 
@@ -250,3 +251,37 @@ References
 [21] Yuan, Yong, et al. "A survey on real time bidding advertising." Service Operations and Logistics, and Informatics (SOLI), 2014 IEEE International Conference on. IEEE, 2014.
 
 [22] Chatwin, Richard E. "An overview of computational challenges in online advertising." American Control Conference (ACC), 2013. IEEE, 2013.
+
+[23] Brubaker, Marcus, Andreas Geiger, and Raquel Urtasun. "Lost! leveraging the crowd for probabilistic visual self-localization." Computer Vision and Pattern Recognition (CVPR), 2013 IEEE Conference on. IEEE, 2013.
+
+[24] Freitas, André, et al. "A distributional semantics approach for selective reasoning on commonsense graph knowledge bases." Natural Language Processing and Information Systems. Springer International Publishing, 2014. 21-32.
+
+[25] Ha, Louisa. "Online advertising research in advertising journals: A review." Journal of Current Issues & Research in Advertising 30.1 (2008): 31-48.
+
+[26] Yuan, Yong, et al. "A survey on real time bidding advertising." Service Operations and Logistics, and Informatics (SOLI), 2014 IEEE International Conference on. IEEE, 2014.
+
+[27] Lacerda, Anísio, et al. "Learning to advertise." Proceedings of the 29th annual international ACM SIGIR conference on Research and development in information retrieval. ACM, 2006.
+
+[28] Fan, Weiguo, et al. "The effects of fitness functions on genetic programming‐based ranking discovery for Web search." Journal of the American Society for Information Science and Technology 55.7 (2004): 628-636.
+
+[29] Neshat, Hamed Sadeghi. "Ranking of new sponsored online ads." Applications of Digital Information and Web Technologies (ICADIWT), 2011 Fourth International Conference on the. IEEE, 2011.
+
+[30] Yuan, Shuai, Jun Wang, and Xiaoxue Zhao. "Real-time bidding for online advertising: measurement and analysis." Proceedings of the Seventh International Workshop on Data Mining for Online Advertising. ACM, 2013.
+
+[31] Barford, Paul, et al. "Adscape: Harvesting and analyzing online display ads." Proceedings of the 23rd international conference on World wide web. ACM, 2014.
+
+[32] Dave, Kushal S., and Vasudeva Varma. "Learning the click-through rate for rare/new ads from similar ads." Proceedings of the 33rd international ACM SIGIR conference on Research and development in information retrieval. ACM, 2010.
+
+[33] Ciaramita, Massimiliano, Vanessa Murdock, and Vassilis Plachouras. "Online learning from click data for sponsored search." Proceedings of the 17th international conference on World Wide Web. ACM, 2008.
+
+[34] Regelson, Moira, and D. Fain. "Predicting click-through rate using keyword clusters." Proceedings of the Second Workshop on Sponsored Search Auctions. Vol. 9623. 2006.
+
+[35] Dembczynski, Krzysztof, Wojciech Kotlowski, and Dawid Weiss. "Predicting ads click-through rate with decision rules." Workshop on targeting and ranking in online advertising. Vol. 2008. 2008.
+
+[36] Fan, Teng-Kai, and Chia-Hui Chang. "Sentiment-oriented contextual advertising." Knowledge and Information Systems 23.3 (2010): 321-344.
+
+[37] Go, Alec, Richa Bhayani, and Lei Huang. "Twitter sentiment classification using distant supervision." CS224N Project Report, Stanford 1 (2009): 12.
+
+[38] Grbovic, Mihajlo, et al. "Gender and Interest Targeting for Sponsored Post Advertising at Tumblr." Proceedings of the 21th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining. ACM, 2015.
+
+
