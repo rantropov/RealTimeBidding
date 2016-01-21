@@ -193,7 +193,7 @@ Couple things has to be keep in mind:
 .. date::2016-Jan-20
 Technique
 ^^^^^^^^^
-Use gradient boosting decision tree to predict the landscape distribution, also make decision of budget strategy.
+Use gradient boosting decision tree to predict the landscape distribution, also make decision of events.
 
 
 **Challenge**
@@ -206,7 +206,11 @@ Some random forests reported in the literature have consistently lower generaliz
 Learning curve:
 
 
- - Bagging (Bootstrap aggregation)  - ( done, ready for real world testing )
+ - Bagging ( Result analysis: Bootstrap aggregation ), ( done, ready for real world testing )
+
+   - Learning dynamic purchase distribution, making prediction and cast optimal strategies
+
+     - Goal 1: increase IAP revenues
  - Random subspace method - ( done, no practice needed )
  - Random forest
  - CADT (Classification and decision tree)
