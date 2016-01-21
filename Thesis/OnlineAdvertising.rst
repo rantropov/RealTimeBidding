@@ -200,18 +200,19 @@ Use gradient boosting decision tree to predict the landscape distribution, also 
 
 .. meta::Note: This is direct reference, has to rewrite the following reference.
 
-::
 Some random forests reported in the literature have consistently lower generalization error than others. For instance, random split selection (Dieterrich, 1998) does better than bagging. Breiman’s introduction of random noise into the outputs (Breiman, 1998c) also does better. But none of these these three forests do as well as Adaboost (Freund & Schapire, 1996) or other algorithms that work by adaptive reweighting (arcing) of the training set (see Breiman, 1998b; Dieterrich, 1998; Bauer & Kohavi, 1999). [43]
+
 
 Learning curve:
 
- # Bagging (Bootstrap aggregation)  - ( done, ready for real world testing )
- # Random subspace method - ( done, no practice needed )
- # Random forest
- # CADT (Classification and decision tree)
- # Gradient boosting
- # Gradient boosting decision tree
- # Stochastic model for budge delivery in dynamic landscape
+
+ - Bagging (Bootstrap aggregation)  - ( done, ready for real world testing )
+ - Random subspace method - ( done, no practice needed )
+ - Random forest
+ - CADT (Classification and decision tree)
+ - Gradient boosting
+ - Gradient boosting decision tree
+ - Stochastic model for budge delivery in dynamic landscape
 
 
 
