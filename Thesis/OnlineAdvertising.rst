@@ -206,11 +206,12 @@ Some random forests reported in the literature have consistently lower generaliz
 Learning curve:
 
 
+
  - Bagging ( Result analysis: Bootstrap aggregation ), ( done, ready for real world testing )
 
-   - Learning dynamic purchase distribution, making prediction and cast optimal strategies
+    - **EXPERIMENT 1**: Learning dynamic purchase distribution, making prediction and cast optimal strategies
 
-     - Goal 1: increase IAP revenues
+        - Goal 1: increase IAP revenues
  - Random subspace method - ( done, no practice needed )
  - Random forest
  - CADT (Classification and decision tree)
@@ -218,6 +219,11 @@ Learning curve:
  - Gradient boosting decision tree
  - Stochastic model for budge delivery in dynamic landscape
 
+**EXPERIMENT 1 Detail**:
+
+ - Draw Life time customer data in finner grind ( hour, minute resolution etc.. )
+ - Use Random Subspace boosting classifier or regression to label real-time data
+ - Design real-time event and make decision to increase IAP
 
 
 
