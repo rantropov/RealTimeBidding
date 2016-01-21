@@ -190,14 +190,23 @@ Couple things has to be keep in mind:
  * The budget delivery is to optimize the advertiser's goal, the advertiser's goal sometimes are differ from budget delivery goals
 
 
+.. date::2016-Jan-20
 Technique
 ^^^^^^^^^
 Use gradient boosting decision tree to predict the landscape distribution, also make decision of budget strategy.
 
+
+**Challenge**
+
+.. meta::Note: This is direct reference, has to rewrite the following reference.
+
+::
+Some random forests reported in the literature have consistently lower generalization error than others. For instance, random split selection (Dieterrich, 1998) does better than bagging. Breiman’s introduction of random noise into the outputs (Breiman, 1998c) also does better. But none of these these three forests do as well as Adaboost (Freund & Schapire, 1996) or other algorithms that work by adaptive reweighting (arcing) of the training set (see Breiman, 1998b; Dieterrich, 1998; Bauer & Kohavi, 1999). [43]
+
 Learning curve:
 
- # Bagging (Bootstrap aggregation)
- # Random subspace method
+ # Bagging (Bootstrap aggregation)  - ( done, ready for real world testing )
+ # Random subspace method - ( done, no practice needed )
  # Random forest
  # CADT (Classification and decision tree)
  # Gradient boosting
@@ -312,4 +321,4 @@ References
 
 [42] Allemang, Dean, and James Hendler. Semantic web for the working ontologist: effective modeling in RDFS and OWL. Elsevier, 2011.
 
-
+[43] Breiman, Leo. "Random forests." Machine learning 45.1 (2001): 5-32.

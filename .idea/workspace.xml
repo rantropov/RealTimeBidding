@@ -47,8 +47,8 @@
       <file leaf-file-name="OnlineAdvertising.rst" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Thesis/OnlineAdvertising.rst">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.7318296">
-              <caret line="204" column="59" selection-start-line="204" selection-start-column="59" selection-end-line="204" selection-end-column="59" />
+            <state vertical-scroll-proportion="0.41729322">
+              <caret line="202" column="2" selection-start-line="202" selection-start-column="2" selection-end-line="202" selection-end-column="2" />
               <folding />
             </state>
           </provider>
@@ -470,7 +470,13 @@
       <option name="project" value="LOCAL" />
       <updated>1453185648781</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="set learning curve and goal">
+      <created>1453358319318</created>
+      <option name="number" value="00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1453358319318</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView">
@@ -542,7 +548,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="skeleton of bidder" />
     <MESSAGE value="add references" />
-    <option name="LAST_COMMIT_MESSAGE" value="add references" />
+    <MESSAGE value="set learning curve and goal" />
+    <option name="LAST_COMMIT_MESSAGE" value="set learning curve and goal" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -672,8 +679,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Thesis/OnlineAdvertising.rst">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.7318296">
-          <caret line="204" column="59" selection-start-line="204" selection-start-column="59" selection-end-line="204" selection-end-column="59" />
+        <state vertical-scroll-proportion="0.41729322">
+          <caret line="202" column="2" selection-start-line="202" selection-start-column="2" selection-end-line="202" selection-end-column="2" />
           <folding />
         </state>
       </provider>
