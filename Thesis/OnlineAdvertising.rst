@@ -166,6 +166,10 @@ Audience targeting
 Budget Delivery/Allocation Optimization
 ***************************************
 
+.. meta::Objective: The objective of budget delivery is to learn bidding landscape. By knowing bidding landscape, advertiser can lower advertising cost thus increase impression opportunities by avoiding competition during rush hour.
+
+Use bidding price and impression quality score to learn bidding landscape.
+
 .. meta::TODO
 
 The KPI selection for budget delivery - heuristic function
@@ -184,6 +188,22 @@ Performance metrics include:
 Couple things has to be keep in mind:
 
  * The budget delivery is to optimize the advertiser's goal, the advertiser's goal sometimes are differ from budget delivery goals
+
+
+Technique
+^^^^^^^^^
+Use gradient boosting decision tree to predict the landscape distribution, also make decision of budget strategy.
+
+Learning curve:
+
+ # Bagging (Bootstrap aggregation)
+ # Random subspace method
+ # Random forest
+ # CADT (Classification and decision tree)
+ # Gradient boosting
+ # Gradient boosting decision tree
+ # Stochastic model for budge delivery in dynamic landscape
+
 
 
 
@@ -283,5 +303,13 @@ References
 [37] Go, Alec, Richa Bhayani, and Lei Huang. "Twitter sentiment classification using distant supervision." CS224N Project Report, Stanford 1 (2009): 12.
 
 [38] Grbovic, Mihajlo, et al. "Gender and Interest Targeting for Sponsored Post Advertising at Tumblr." Proceedings of the 21th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining. ACM, 2015.
+
+[39] Ferrara, Emilio, et al. "Web data extraction, applications and techniques: A survey." Knowledge-Based Systems 70 (2014): 301-323.
+
+[40] Balinski, M. L., and A. W. Tucker. "Duality theory of linear programs: A constructive approach with applications." Siam Review 11.3 (1969): 347-377.
+
+[41] Chvatal, Vasek. Linear programming. Macmillan, 1983.
+
+[42] Allemang, Dean, and James Hendler. Semantic web for the working ontologist: effective modeling in RDFS and OWL. Elsevier, 2011.
 
 
