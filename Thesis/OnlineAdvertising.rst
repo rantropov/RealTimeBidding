@@ -333,3 +333,8 @@ References
 [42] Allemang, Dean, and James Hendler. Semantic web for the working ontologist: effective modeling in RDFS and OWL. Elsevier, 2011.
 
 [43] Breiman, Leo. "Random forests." Machine learning 45.1 (2001): 5-32.
+
+[44] Duan, Q. Y., Vijai K. Gupta, and Soroosh Sorooshian. "Shuffled complex evolution approach for effective and efficient global minimization." Journal of optimization theory and applications 76.3 (1993): 501-521.
+
+[45] Bresson, Xavier, et al. "Fast global minimization of the active contour/snake model." Journal of Mathematical Imaging and vision 28.2 (2007): 151-167.
+
