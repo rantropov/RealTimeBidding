@@ -227,6 +227,21 @@ Learning curve:
 
 
 
+.. date::2016-Jan-29
+.. meta::Note: this is a thought of implementing a global minimization solver. Can be used in constructing random forest (gradient boosting?)
+
+Use convex optimization on non-convex space by learning the search space. Steps:
+
+ 1. Learning problem space distribution function using known sampling points.
+ 2. Compute global minimal in learned objective function (with all constraints)
+ 3. Compare objective global minimal with actual global minimal in feasible space
+ 4. If doesn't match (with certain confidence interval), use binary search approach to back trace to diverge point.
+ 5. Start fitting new curve from diverge point and add upper/lower bound to existing objective functions
+
+
+Fitting curve with known sample
+
+
 Learning bidding landscape
 ==========================
 
