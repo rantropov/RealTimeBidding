@@ -27,8 +27,8 @@
       <file leaf-file-name="OnlineAdvertising.rst" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Thesis/OnlineAdvertising.rst">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.924812">
-              <caret line="239" column="1" selection-start-line="239" selection-start-column="1" selection-end-line="239" selection-end-column="1" />
+            <state vertical-scroll-proportion="0.5300752">
+              <caret line="221" column="50" selection-start-line="221" selection-start-column="50" selection-end-line="221" selection-end-column="50" />
               <folding />
             </state>
           </provider>
@@ -486,7 +486,13 @@
       <option name="project" value="LOCAL" />
       <updated>1454126446858</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="working on global minimization">
+      <created>1454127989477</created>
+      <option name="number" value="00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1454127989477</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView">
@@ -561,7 +567,8 @@
     <MESSAGE value="set learning curve and goal" />
     <MESSAGE value="Continue" />
     <MESSAGE value="Plan for experiments" />
-    <option name="LAST_COMMIT_MESSAGE" value="Plan for experiments" />
+    <MESSAGE value="working on global minimization" />
+    <option name="LAST_COMMIT_MESSAGE" value="working on global minimization" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -691,8 +698,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Thesis/OnlineAdvertising.rst">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.924812">
-          <caret line="239" column="1" selection-start-line="239" selection-start-column="1" selection-end-line="239" selection-end-column="1" />
+        <state vertical-scroll-proportion="0.5300752">
+          <caret line="221" column="50" selection-start-line="221" selection-start-column="50" selection-end-line="221" selection-end-column="50" />
           <folding />
         </state>
       </provider>

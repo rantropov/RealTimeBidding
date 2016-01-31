@@ -219,6 +219,8 @@ Learning curve:
  - Gradient boosting decision tree
  - Stochastic model for budge delivery in dynamic landscape
 
+**Note! Calculate classifier's Error Upper Bound!**
+
 **EXPERIMENT 1 Detail**:
 
  - Draw Life time customer data in finner grind ( hour, minute resolution etc.. )
