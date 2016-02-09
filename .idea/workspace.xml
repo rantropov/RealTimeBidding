@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="34cd67e0-f635-4a53-9367-c755630ba857" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/Thesis/AudienceTargeting.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Thesis/OnlineAdvertising.rst" afterPath="$PROJECT_DIR$/Thesis/OnlineAdvertising.rst" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Thesis/AudienceTargeting.rst" afterPath="$PROJECT_DIR$/Thesis/AudienceTargeting.rst" />
     </list>
     <ignored path="RealTimeBidding.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,8 +25,8 @@
             <file leaf-file-name="AudienceTargeting.rst" pinned="false" current-in-tab="true">
               <entry file="file://$PROJECT_DIR$/Thesis/AudienceTargeting.rst">
                 <provider selected="true" editor-type-id="text-editor">
-                  <state vertical-scroll-proportion="0.939759">
-                    <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+                  <state vertical-scroll-proportion="0.8192771">
+                    <caret line="56" column="85" selection-start-line="56" selection-start-column="85" selection-end-line="56" selection-end-column="85" />
                     <folding />
                   </state>
                 </provider>
@@ -675,8 +673,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Thesis/AudienceTargeting.rst">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.939759">
-          <caret line="39" column="16" selection-start-line="39" selection-start-column="16" selection-end-line="39" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.8192771">
+          <caret line="56" column="85" selection-start-line="56" selection-start-column="85" selection-end-line="56" selection-end-column="85" />
           <folding />
         </state>
       </provider>

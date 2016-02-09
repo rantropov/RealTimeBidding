@@ -31,6 +31,9 @@ IAP optimization
 
 We designed a system that classify the user into groups base on user's behaviours and preference. The system also measures the importance (weight) of each features. The system builds applies a voting mechanism to discriminate new users, the classifier is trained with historical data. This system has high tolerance to noise; it's also adaptive to dynamic environment; it's able to detect and follow the trend of user's interests.
 
+Data collection
+^^^^^^^^^^^^^^^
+
 The first step is to identify whether the user behaviour falls into certain distribution or purely random. To do that, we have to collect enough labelled data to analyse the user behaviour pattern. Before launch the data collection, we choose a uniform setting for the test run. The configuration is set uniformly in order to avoid bias. For example, the pop-up ads are distributed uniformly though user session, the session length are calculated by average the previous day's user session length. Another example is some rewards events are triggered in a uniform probability, all configuration combinations are performed in a A/B test form, the reason of using a A/B test form is we want to allocate all configurations uniformly in time and demographic dimensions, independently, to minimize the sample bias.
 
 We launch our app for 1 month and collect 20,000 positive samples (user session with real money purchase) and 1,000,000 negative samples (user session without real money purchase). In order to reduce the sample size and remove irrelevant event and noise, we first group the sample by user id and the sample size is reduced by 70%. Now we have a sample collection with unique user ids. We use the user id as seed to retrieve all relevant in game events for each user id. We limited the time window to 1 day, applying this time windows, we retrieve 1000 session events per user id in average. It ends up with total 6,000,000 session events for positive samples and 3,000,000,000 session events for negative samples.
@@ -40,12 +43,22 @@ The next step is to remove irrelevant events (all irrelevant events are hand pic
  * User sessions for positive sample 900,000
  * User sessions for negative sample 4,500,000
 
+Data representation
+^^^^^^^^^^^^^^^^^^^
 
-According to our observation, the IAP user behaviour falls into certain distribution,
+We use vector representation to represent user features, we build various vector spaces and project the user features into each vector space.
+
+For user behaviour analysis, we build a vector space :math:`E = (e_1, e_2, ... , e_n)`  where each :math:`e_i` is a game event, the value of each entry is the event count for each user id's record. For example event **Ads watched** happened 5 times for user *u*, we represent this event in vector space as :math:`E_u = 5 * Ads_watched`.
+
+
+Observation
+^^^^^^^^^^^
+
+According to our observation, the IAP user behaviour falls into certain distribution.,
 
 
 
-Use decay function in interests tracking
-^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+Use decay function for interests targeting
+^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
 [38] states that user interests decay with time in a non-linear progress. In our system, we use a scaled sigmoid function as decay function to assign weights to user features base on timestamp.
