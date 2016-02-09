@@ -160,7 +160,22 @@ A linear programming approach
 Audience targeting
 ******************
 
-[6] [8] [9] [10] [11] [12] [16]
+Audience targeting is a well learned area in online advertising, paper [8] [9] [10] [11] [12] [16] presents different techniques in audience targeting, paper [6] measures the importance of behavioral targeting in online advertising.
+
+.. meta::TODO: talk about the techniques and researches in this area, describe the researches done in those papers.
+
+My approaches:
+
+1. Classify the user group.
+The first step of audience targeting is to learn the user behaviour.
+We initialize the campaign with random attributes in order to learn the user behaviour. In our case, we start a campaign with pre-defined attributes value. The campaign was left to run for 2 weeks to obtain enough labelled data to train the classifier (which is a random forest classifier).
+
+Once having enough labelled data, we deployed a data pipeline to extract the labelled data, project user attribute into vector space and align them.
+
+.. meta::TODO: describe the process in details
+
+The next step is to grow a random forest for the labelled data, the first forest is grown with 1 dimension tree in each node. We choose the size of the forest as the dimension of input vector.
+
 
 
 Budget Delivery/Allocation Optimization
@@ -263,7 +278,7 @@ Marketplace
 References
 ##########
 
-[6] Yan, Jun, et al. "How much can behavioral targeting help online advertising?." Proceedings of the 18th international conference on World wide web. ACM, 2009.
+
 
 [1] Chen, Ye, et al. "Real=time bidding algorithms for performance=based display ad allocation." Proceedings of the 17th ACM SIGKDD international conference on Knowledge discovery and data mining. ACM, 2011.
 
@@ -274,6 +289,8 @@ References
 [4] Zhang, Weinan, Shuai Yuan, and Jun Wang. "Optimal real-time bidding for display advertising." Proceedings of the 20th ACM SIGKDD international conference on Knowledge discovery and data mining. ACM, 2014.
 
 [5] Lee, Kuang-chih, et al. "Estimating conversion rate in display advertising from past erformance data." Proceedings of the 18th ACM SIGKDD international conference on Knowledge discovery and data mining. ACM, 2012.
+
+[6] Yan, Jun, et al. "How much can behavioral targeting help online advertising?." Proceedings of the 18th international conference on World wide web. ACM, 2009.
 
 [7] Lee, Kuang-Chih, Ali Jalali, and Ali Dasdan. "Real time bid optimization with smooth budget delivery in online advertising." Proceedings of the Seventh International Workshop on Data Mining for Online Advertising. ACM, 2013.
 
