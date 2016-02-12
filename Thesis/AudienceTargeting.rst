@@ -16,8 +16,8 @@ AppsFlyer collects and tracks ads performance information such like in-app event
 The following chapter are divided into two parts, the first parts is about IAP optimization, the second part is about CTR optimization, both performance optimization use audience targeting and behavioural targeting techniques, but the implementation details and lower level algorithms are different.
 
 
-Data warehouse infrastructure
------------------------------
+Data warehouse and streaming pipeline
+-------------------------------------
 
   * Big query
   * Data aggregation
@@ -25,6 +25,46 @@ Data warehouse infrastructure
   * ETL
   * Pre and post process
   * Streaming
+
+Data processing
+^^^^^^^^^^^^^^^
+
+We are receiving data from multiple data management platforms, for example LeanPlum, most data management platform offers 2 major communicating forms: batch and streaming. There are advantages and disadvantages of each form.
+
+Batch data processing
+"""""""""""""""""""""
+
+The advantage of systems based on batch data processing is there no high performance real-time data processing pipeline needed, the system is more stable and reliable due to the low data traffic and flexible schedules. If one batch process failed, the system can easily rerun the data process program and backup the data. The disadvantage of batch data processing is it's unable to make real-time decision and prediction.
+
+Real-time data streaming
+""""""""""""""""""""""""
+
+The advantages of systems based on real-time data streaming is that systems built base on real-time data streaming are able to do real-time analysis. It provides finer grained user and behavioral targeting ability. The system is able to make decision and recommendation for users base on their live activities. The services provided to users are more customized and accurate. But there are many challenges posed to real-time data streaming.
+
+The first problem is the real-time data streaming is more sensitive to dynamic environment, for example, schema changes, incomplete or even inconsistent data, can easily cause unpredictable errors, sometimes even worse, yield undetected wrong results.
+
+The second problem is the challenge of design and implementation of high performance, reliable data streaming pipeline. Gigabyte per second data traffics are common in practice. The solutions to handle heavy data traffics are include: local processing, cloud processing or mixed of local/cloud processing approaches.
+
+Local processing
+''''''''''''''''
+
+Current local processing approaches involves GPU and distributed system computing technologies.
+
+GPU is a powerful computing resource, the most advance GPU processor has thousands cores and up-to 32 Gb on chip memory [47] (NVidia Tesla and Geforce 980 Ti). But the GPU suffers from the limitation of data structure that available on GPU chip. It also unable dynamic allocate on chip memory.
+The currently CUDA [48] platform only supports numerical and char data types, it doesn't support vector, string, dictionary, set and other advanced data structure due to the limitation of memory and dynamic allocation. Since most data format in big data platform are Table and JSON format, it's hard to use GPU to parse the data directly, additional works are needed in order to utilize GPU (such like implement static memory dictionary and other advance data structure on GPU).
+
+Small scale distributed system is another approach to process streaming data locally. But the well know problem for distributed system is the robustness of the distributed system. How to fill in the gap that caused by temporarily unavailable or offline machine? To build a distributed system also increase the hardware and daily energy cost.
+
+
+Cloud processing
+''''''''''''''''
+
+There are many existing cloud computing services available on the market, for example Amazon AWS cloud computing platform and Google BigQuery. The advantage of cloud computing is it has guaranteed performance with powerful API support. One disadvantage of cloud computing is the cloud computing is highly depends on the internet robustness, the system that highly relies on cloud computing will encounter fetal interruption if the internet becomes offline. Another problem of cloud computing is the uncertainty of the remote services, the system will halt if the remote services become unavailable. The third problem of cloud computing is most cloud computing services bills on the data processed which is expensive in long term.
+
+Mixed approach
+''''''''''''''
+
+The mixed approach is aimed to solve the problems of local and cloud processing.
 
 IAP optimization
 ----------------

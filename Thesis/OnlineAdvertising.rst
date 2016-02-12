@@ -372,3 +372,8 @@ References
 
 [45] Bresson, Xavier, et al. "Fast global minimization of the active contour/snake model." Journal of Mathematical Imaging and vision 28.2 (2007): 151-167.
 
+[46] Ferguson, George, and James Allen. "Mixed-initiative systems for collaborative problem solving." AI magazine 28.2 (2007): 23.
+
+[47] Geforce CUDA http://www.geforce.com/hardware/desktop-gpus
+
+[48] NVidia CUDA https://en.wikipedia.org/wiki/CUDA
