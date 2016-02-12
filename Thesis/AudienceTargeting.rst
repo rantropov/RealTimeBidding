@@ -45,10 +45,10 @@ The first problem is the real-time data streaming is more sensitive to dynamic e
 
 The second problem is the challenge of design and implementation of high performance, reliable data streaming pipeline. Gigabyte per second data traffics are common in practice. The solutions to handle heavy data traffics are include: local processing, cloud processing or mixed of local/cloud processing approaches.
 
-Local processing
-''''''''''''''''
+Local Computing
+'''''''''''''''
 
-Current local processing approaches involves GPU and distributed system computing technologies.
+Local computing approaches mainly involves GPU and distributed system computing technologies.
 
 GPU is a powerful computing resource, the most advance GPU processor has thousands cores and up-to 32 Gb on chip memory [47] (NVidia Tesla and Geforce 980 Ti). But the GPU suffers from the limitation of data structure that available on GPU chip. It also unable dynamic allocate on chip memory.
 The currently CUDA [48] platform only supports numerical and char data types, it doesn't support vector, string, dictionary, set and other advanced data structure due to the limitation of memory and dynamic allocation. Since most data format in big data platform are Table and JSON format, it's hard to use GPU to parse the data directly, additional works are needed in order to utilize GPU (such like implement static memory dictionary and other advance data structure on GPU).
@@ -56,15 +56,35 @@ The currently CUDA [48] platform only supports numerical and char data types, it
 Small scale distributed system is another approach to process streaming data locally. But the well know problem for distributed system is the robustness of the distributed system. How to fill in the gap that caused by temporarily unavailable or offline machine? To build a distributed system also increase the hardware and daily energy cost.
 
 
-Cloud processing
-''''''''''''''''
+Cloud computing
+'''''''''''''''
 
 There are many existing cloud computing services available on the market, for example Amazon AWS cloud computing platform and Google BigQuery. The advantage of cloud computing is it has guaranteed performance with powerful API support. One disadvantage of cloud computing is the cloud computing is highly depends on the internet robustness, the system that highly relies on cloud computing will encounter fetal interruption if the internet becomes offline. Another problem of cloud computing is the uncertainty of the remote services, the system will halt if the remote services become unavailable. The third problem of cloud computing is most cloud computing services bills on the data processed which is expensive in long term.
 
-Mixed approach
-''''''''''''''
+Heterogeneous computing
+'''''''''''''''''''''''
 
-The mixed approach is aimed to solve the problems of local and cloud processing.
+The heterogeneous computing method is designed to address the problems and challenges mentioned above. Heterogeneous methods reduce the computing complexity for GPU processing; it also gains enhanced stability and reliability along with high performance.
+
+Design of heterogeneous data streaming system
+"""""""""""""""""""""""""""""""""""""""""""""
+
+Our heterogeneous data streaming system is divided into 3 parts: data processing, job scheduling and data aggregation.
+
+Processing
+''''''''''
+
+Scheduler
+'''''''''
+
+Aggregation
+'''''''''''
+
+The purpose for data aggregation is to improve the data retrieving speed and reduce data processing cost.
+
+Our data aggregation is designed to represent and parse JSON and table formats. We choose Google BigQuery because the Google BigQuery offers high performance hybrid information retrieval capability. In order to maximize the performance, we project data into different vector spaces.
+
+
 
 IAP optimization
 ----------------
@@ -86,15 +106,24 @@ The next step is to remove irrelevant events (all irrelevant events are hand pic
 Data representation
 ^^^^^^^^^^^^^^^^^^^
 
-We use vector representation to represent user features, we build various vector spaces and project the user features into each vector space.
+We represent user features in vector space, we build various vector spaces and project the user features into each vector space for different purpose.
 
-For user behaviour analysis, we build a vector space :math:`E = (e_1, e_2, ... , e_n)`  where each :math:`e_i` is a game event, the value of each entry is the event count for each user id's record. For example event **Ads watched** happened 5 times for user *u*, we represent this event in vector space as :math:`E_u = 5 * Ads_watched`.
+Let :math:`u_j` be the total number of user in user group :math:`J`
 
+In interest targeting, we build a vector space :math:`E = (c_1*e_1, c_2*e_2, ... , c_n*e_n)`  where each :math:`c_i*e_i` is a game event, the weight :math:`c_i`  is the event count in each user's record. For example if event **Ads watched** occurred 5 times in user *u*'s record, we denote this as :math:`E_u = 5 * Ads_watched`.
+
+In user behaviour analysis, we use a probability vector to represent user group. The probability vector is represented as :math:`P = (p_1*e_1, p_2*e_2, ... , p_n*e_n)` where :math:`p_i` is the probability of event :math:`e_i` happen in user group U, :math:`p_i` is calculated as event count for event *i* :math:`c_i` divide by total number of users user group `u_j`: :math:`p_i=c_i/u_j`
+
+
+User behavior distribution
+^^^^^^^^^^^^^^^^^^^^^^^^^^
+
+In order to learn whether the user behavior falls into certain distribution, we calculated the probability of every event in user group :math:`u_j`
 
 Observation
 ^^^^^^^^^^^
 
-According to our observation, the IAP user behaviour falls into certain distribution.,
+According to our observation, the IAP user behaviour falls into certain distribution,
 
 
 
