@@ -80,9 +80,18 @@ Scheduler
 Aggregation
 '''''''''''
 
-The purpose for data aggregation is to improve the data retrieving speed and reduce data processing cost.
+The purpose for data aggregation is to improve the system performance and reduce cost.
 
-Our data aggregation is designed to represent and parse JSON and table formats. We choose Google BigQuery because the Google BigQuery offers high performance hybrid information retrieval capability. In order to maximize the performance, we project data into different vector spaces.
+Our system is designed to represent and parse JSON and table formats. We choose Google BigQuery because the Google BigQuery offers high performance hybrid information retrieval capability. In order to maximize the performance, we project raw data into vector spaces of smaller dimensions.
+The queries are run on the aggregate tables. Each aggregate table serves for different queries and KPIs, for example, in order to count the daily active users, we extract the user information (user id, device id, session timestamp, system name etc) from raw data to create daily active user table. The user session information are sorted and stored by the date they are active. In this way, we can perform random access-like query base on the dates. By project raw data into the daily active user table, we deduct the data size by 99.9%. Thus corresponding queries have 1000% performance gain and reduce cost by a considerable amount.
+
+In this way, the aggregate tables are generated to store:
+
+ * User information (user id, device id etc)
+ * Real money user information (purchase amount, timestamp etc)
+ * Session information (session length, timestamp etc)
+ * In app event information (game event, event value etc)
+
 
 
 
