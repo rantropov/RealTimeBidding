@@ -288,8 +288,6 @@ References
 
 [4] Zhang, Weinan, Shuai Yuan, and Jun Wang. "Optimal real-time bidding for display advertising." Proceedings of the 20th ACM SIGKDD international conference on Knowledge discovery and data mining. ACM, 2014.
 
-[5] Lee, Kuang-chih, et al. "Estimating conversion rate in display advertising from past erformance data." Proceedings of the 18th ACM SIGKDD international conference on Knowledge discovery and data mining. ACM, 2012.
-
 [6] Yan, Jun, et al. "How much can behavioral targeting help online advertising?." Proceedings of the 18th international conference on World wide web. ACM, 2009.
 
 [7] Lee, Kuang-Chih, Ali Jalali, and Ali Dasdan. "Real time bid optimization with smooth budget delivery in online advertising." Proceedings of the Seventh International Workshop on Data Mining for Online Advertising. ACM, 2013.
@@ -377,3 +375,62 @@ References
 [47] Geforce CUDA http://www.geforce.com/hardware/desktop-gpus
 
 [48] NVidia CUDA https://en.wikipedia.org/wiki/CUDA
+
+
+.. TODO::READ The following papers!
+
+[5] Lee, Kuang-chih, et al. "Estimating conversion rate in display advertising from past performance data." Proceedings of the 18th ACM SIGKDD international conference on Knowledge discovery and data mining. ACM, 2012.
+
+[49] Yukihiro Tagami, Shingo Ono, Koji Yamamoto, Koji Tsukamoto, and Akira Tajima. 2013. CTR prediction for contextual advertising: learning-to-rank approach. In Proceedings of the Seventh International Workshop on Data Mining for Online Advertising (ADKDD '13).
+
+[50] Yan, Ling, et al. "Coupled group lasso for web-scale ctr prediction in display advertising." Proceedings of the 31st International Conference on Machine Learning (ICML-14). 2014.
+
+[51] Chapelle, Olivier. "Modeling delayed feedback in display advertising." Proceedings of the 20th ACM SIGKDD international conference on Knowledge discovery and data mining. ACM, 2014.
+
+[52] Zhang, Weinan, Lingxi Chen, and Jun Wang. "Implicit Look-alike Modelling in Display Ads: Transfer Collaborative Filtering to CTR Estimation." arXiv preprint arXiv:1601.02377 (2016).
+
+[53] Kalyanakrishnan, Shivaram, Deepthi Singh, and Ravi Kant. "On Building Decision Trees from Large-scale Data in Applications of On-line Advertising." Proceedings of the 23rd ACM International Conference on Conference on Information and Knowledge Management. ACM, 2014.
+
+[54] Zhang, Weinan, et al. Feedback Control of Real-Time Display Advertising. Working paper, 2016.
+
+[55] Zhang, Weinan, Tianming Du, and Jun Wang. "Deep Learning over Multi-field Categorical Data: A Case Study on User Response Prediction." arXiv preprint arXiv:1601.02376 (2016).
+
+[56] Li, Sheng, Jaya Kawale, and Yun Fu. "Predicting user behavior in display advertising via dynamic collective matrix factorization." Proceedings of the 38th International ACM SIGIR Conference on Research and Development in Information Retrieval. ACM, 2015.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

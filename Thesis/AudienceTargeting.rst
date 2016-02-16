@@ -1,3 +1,30 @@
+Outline
+=======
+
+How much can behavioral targeting help advertising? Is it possible to design a automated system that recognizes user behaviors in a highly dynamic environment (real time)?
+I designed a system that addresses the problems above, this system is a MI system (mixed initiative systems) that combines supervised/unsupervised machine learning techniques to recognize user behaviors.
+This system is able to discover user behavioural patterns with unlabeled data, and applies reinforcement learning to improve the pattern recognition accuracy and performance.
+
+Layout:
+
+ * Data preparation - data streaming pipeline
+ * Initialization - deploy system to obtain labelled data
+   * Positive samples - **RESEARCH ISSUE**: how to improve the converted user?
+   * Negative samples - **RESEARCH ISSUE**: how to improve the conversion rate?
+     * Analyze the behaviors of converted and unconverted user groups
+       * **RESEARCH ISSUE**: the best way for behavioral analysis, the representation and computational model - my current approach is to use probabilistic model to represent user behaviors [52]
+ * Learning phase 1: measurement - measure the importance of features, provide deep insight to help human specialist to select/filter out features [46]
+ * Learning phase 2: eliminate useless feature [50]
+ * Learning phase 3: building decision model - use structured data (with selected feature) to build decision model, taking account the time decays, the user interests are highly sensitive to time, give more weights to most recent behaviors
+   * Use decision tree with high dimensional features [53]
+ * Impression delivery - **RESEARCH ISSUE**: how do we know which offer performs better in certain event? How can we come out a efficient ranking/scoring system to match offers with users?
+   * Related issue are: conversion rate prediction [5] [49] [55] [56]
+   * Dealing with noise training data [49] [Random forest - 43]
+ * Reinforcement learning: use feedback flow to refine model accuracy [54]:
+   * Dealing with delayed feedback [51]
+
+
+
 Audience Targeting
 ==================
 
@@ -16,8 +43,8 @@ AppsFlyer collects and tracks ads performance information such like in-app event
 The following chapter are divided into two parts, the first parts is about IAP optimization, the second part is about CTR optimization, both performance optimization use audience targeting and behavioural targeting techniques, but the implementation details and lower level algorithms are different.
 
 
-Data warehouse and streaming pipeline
--------------------------------------
+Data warehouse and streaming pipeline - A MI system
+---------------------------------------------------
 
   * Big query
   * Data aggregation
@@ -25,6 +52,7 @@ Data warehouse and streaming pipeline
   * ETL
   * Pre and post process
   * Streaming
+  * Monitoring and feedback (data monitoring)
 
 Data processing
 ^^^^^^^^^^^^^^^
@@ -56,7 +84,7 @@ The currently CUDA [48] platform only supports numerical and char data types, it
 Small scale distributed system is another approach to process streaming data locally. But the well know problem for distributed system is the robustness of the distributed system. How to fill in the gap that caused by temporarily unavailable or offline machine? To build a distributed system also increase the hardware and daily energy cost.
 
 
-Cloud computing
+Cloud Computing
 '''''''''''''''
 
 There are many existing cloud computing services available on the market, for example Amazon AWS cloud computing platform and Google BigQuery. The advantage of cloud computing is it has guaranteed performance with powerful API support. One disadvantage of cloud computing is the cloud computing is highly depends on the internet robustness, the system that highly relies on cloud computing will encounter fetal interruption if the internet becomes offline. Another problem of cloud computing is the uncertainty of the remote services, the system will halt if the remote services become unavailable. The third problem of cloud computing is most cloud computing services bills on the data processed which is expensive in long term.
