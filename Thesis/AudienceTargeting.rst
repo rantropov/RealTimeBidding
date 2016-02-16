@@ -8,14 +8,14 @@ This system is able to discover user behavioural patterns with unlabeled data, a
 Layout:
 
  * Data preparation - data streaming pipeline
- * Initialization - deploy system to obtain labelled data
-   * Positive samples - **RESEARCH ISSUE**: how to improve the converted user?
+ * Initialization - "cold start" sampling
+   * Positive samples - **RESEARCH ISSUE**: how to improve the converted user avery revenue?
    * Negative samples - **RESEARCH ISSUE**: how to improve the conversion rate?
-     * Analyze the behaviors of converted and unconverted user groups
-       * **RESEARCH ISSUE**: the best way for behavioral analysis, the representation and computational model - my current approach is to use probabilistic model to represent user behaviors [52]
+     * Analyze the behaviors of positive and negative population
+       * **RESEARCH ISSUE**: Select proper behavioral analysis tools: representation and computational model - my current approach is to use probabilistic model to represent strength [52]
  * Learning phase 1: measurement - measure the importance of features, provide deep insight to help human specialist to select/filter out features [46]
- * Learning phase 2: eliminate useless feature [50]
- * Learning phase 3: building decision model - use structured data (with selected feature) to build decision model, taking account the time decays, the user interests are highly sensitive to time, give more weights to most recent behaviors
+ * Learning phase 2: eliminate useless features [50]
+ * Learning phase 3: model building - use structured data (with selected features) to build decision model, taking account time decay, the user interests are highly sensitive to time, give more weights to most recent behaviors
    * Use decision tree with high dimensional features [53]
  * Impression delivery - **RESEARCH ISSUE**: how do we know which offer performs better in certain event? How can we come out a efficient ranking/scoring system to match offers with users?
    * Related issue are: conversion rate prediction [5] [49] [55] [56]
