@@ -397,6 +397,8 @@ References
 
 [56] Li, Sheng, Jaya Kawale, and Yun Fu. "Predicting user behavior in display advertising via dynamic collective matrix factorization." Proceedings of the 38th International ACM SIGIR Conference on Research and Development in Information Retrieval. ACM, 2015.
 
+[57] Shen, Jianqiang, Sahin Cem Geyik, and Ali Dasdan. "Effective Audience Extension in Online Advertising." Proceedings of the 21th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining. ACM, 2015.
+
 
 
 
