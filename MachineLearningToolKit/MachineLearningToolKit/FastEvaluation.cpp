@@ -11,6 +11,16 @@
 
 namespace fastEval {
     BinaryVector::BinaryVector() {
-        
+        ;
     }
+    
+    unsigned VectorHandler::mostSignificantBit(unsigned long long v) {
+        unsigned _pos = 0;
+        while (v >>= 1) {
+            _pos++;
+        }
+        return _pos;
+    }
+
+    
 }

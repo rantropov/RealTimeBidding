@@ -12,6 +12,12 @@
 
 
 namespace fastEval {
+    
+    class VectorHandler {
+    public:
+        static unsigned mostSignificantBit(unsigned long long v);
+    };
+    
     class BinaryVector {
     private:
         // This is 64 bit version
