@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		56890C881C7705F800DF5150 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 56890C871C7705F800DF5150 /* main.cpp */; };
+		56890C951C770BB600DF5150 /* FastEvaluation.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 56890C941C770BB600DF5150 /* FastEvaluation.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,9 @@
 /* Begin PBXFileReference section */
 		56890C841C7705F800DF5150 /* MachineLearningToolKit */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MachineLearningToolKit; sourceTree = BUILT_PRODUCTS_DIR; };
 		56890C871C7705F800DF5150 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		56890C911C77067F00DF5150 /* FastEvaluation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FastEvaluation.h; sourceTree = "<group>"; };
+		56890C931C77087300DF5150 /* GlobalConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GlobalConfig.h; sourceTree = "<group>"; };
+		56890C941C770BB600DF5150 /* FastEvaluation.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = FastEvaluation.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,9 +61,44 @@
 		56890C861C7705F800DF5150 /* MachineLearningToolKit */ = {
 			isa = PBXGroup;
 			children = (
+				56890C921C77085800DF5150 /* GlobalConfig */,
+				56890C8E1C77063C00DF5150 /* FastEvaluation */,
 				56890C871C7705F800DF5150 /* main.cpp */,
 			);
 			path = MachineLearningToolKit;
+			sourceTree = "<group>";
+		};
+		56890C8E1C77063C00DF5150 /* FastEvaluation */ = {
+			isa = PBXGroup;
+			children = (
+				56890C901C77066700DF5150 /* src */,
+				56890C8F1C77066200DF5150 /* headers */,
+			);
+			name = FastEvaluation;
+			sourceTree = "<group>";
+		};
+		56890C8F1C77066200DF5150 /* headers */ = {
+			isa = PBXGroup;
+			children = (
+				56890C911C77067F00DF5150 /* FastEvaluation.h */,
+			);
+			name = headers;
+			sourceTree = "<group>";
+		};
+		56890C901C77066700DF5150 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				56890C941C770BB600DF5150 /* FastEvaluation.cpp */,
+			);
+			name = src;
+			sourceTree = "<group>";
+		};
+		56890C921C77085800DF5150 /* GlobalConfig */ = {
+			isa = PBXGroup;
+			children = (
+				56890C931C77087300DF5150 /* GlobalConfig.h */,
+			);
+			name = GlobalConfig;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -119,6 +158,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				56890C881C7705F800DF5150 /* main.cpp in Sources */,
+				56890C951C770BB600DF5150 /* FastEvaluation.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
