@@ -103,6 +103,8 @@ Design of heterogeneous data streaming system
 
 Our heterogeneous data streaming system is divided into 3 parts: data processing, job scheduling and data aggregation.
 
+
+
 Processing
 ''''''''''
 
@@ -159,12 +161,12 @@ In user behaviour analysis, we use a probability vector to represent user group.
 User behavior distribution
 ^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-In order to learn whether the user behavior falls into certain distribution, we calculated the probability of every event in user group :math:`u_j`
+In order to learn the distribution of user behaviour, we calculated the probability of every event in each user group :math:`u_j`
 
 Observation
 ^^^^^^^^^^^
 
-According to our observation, the IAP user behaviour falls into certain distribution,
+The user behavior of each user group shows significant difference.
 
 
 
