@@ -399,6 +399,11 @@ References
 
 [57] Shen, Jianqiang, Sahin Cem Geyik, and Ali Dasdan. "Effective Audience Extension in Online Advertising." Proceedings of the 21th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining. ACM, 2015.
 
+[58] Molina, Luis Carlos, Lluís Belanche, and Àngela Nebot. "Feature selection algorithms: a survey and experimental evaluation." Data Mining, 2002. ICDM 2003. Proceedings. 2002 IEEE International Conference on. IEEE, 2002.
+
+[58] Oh, Il-Seok, Jin-Seon Lee, and Byung-Ro Moon. "Hybrid genetic algorithms for feature selection." Pattern Analysis and Machine Intelligence, IEEE Transactions on 26.11 (2004): 1424-1437.
+
+[59] Siedlecki, Wojciech, and Jack Sklansky. "On automatic feature selection." International Journal of Pattern Recognition and Artificial Intelligence 2.02 (1988): 197-220.
 
 
 
