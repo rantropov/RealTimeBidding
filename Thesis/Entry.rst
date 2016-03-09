@@ -405,11 +405,11 @@ References
 
 [59] Siedlecki, Wojciech, and Jack Sklansky. "On automatic feature selection." International Journal of Pattern Recognition and Artificial Intelligence 2.02 (1988): 197-220.
 
+[60] Perlich, Claudia, et al. "Machine learning for targeted display advertising: Transfer learning in action." Machine learning 95.1 (2014): 103-127.
 
+.. TODO::Read this paper!
 
-
-
-
+[61] Raeder, Troy, et al. "Scalable supervised dimensionality reduction using clustering." Proceedings of the 19th ACM SIGKDD international conference on Knowledge discovery and data mining. ACM, 2013.
 
 
 
