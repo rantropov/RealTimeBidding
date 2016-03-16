@@ -13,14 +13,18 @@ Layout:
    * Negative samples - **RESEARCH ISSUE**: how to improve the conversion rate?
      * Analyze the behaviors of positive and negative population
        * **RESEARCH ISSUE**: Select proper behavioral analysis tools: representation and computational model - my current approach is to use probabilistic model to represent strength [52]
- * Learning phase 1: feature selection - measure the importance of features, provide deep insight to help human specialist to prune/trim features [46]
+ * Pre-learning: feature selection - measure the importance of features, provide deep insight to help human specialist to prune/trim features [46]
     * Pre-learning 1: Detect correlations between features
-    * Pre-learning 2: Measure feature importance
+    * Pre-learning 2: Measure feature importance [58]
     * Pre-learning 3: eliminate useless features [50]
  * Learning phase 3: model building - use structured data (with selected features) to build decision model, taking account time decay, the user interests are highly sensitive to time, give more weights to most recent behaviors
    * Model selection, deep neural network to explore non-linear correlations, random forest to project high dimensional data into lower dimension
    * Use decision tree with high dimensional features [53]
  * Training: deep neural network training.
+ Note: the reason why we need pre-learning is we assume the neural network is sensitive to noise and suffer from over-fitting, we have to do some research to prove this assumption is true.
+ Things need to be proven:
+   * Sensitivity of noise of neural network
+   * Performance boosting from feature selection
  * Impression delivery - **RESEARCH ISSUE**: how do we choose offer to deliver? How can we come out a efficient ranking/scoring system to match offers with users? Related issue are:
    * Conversion rate prediction [5] [49] [55] [56]
    * Dealing with noise training data [49] [Random forest - 43]

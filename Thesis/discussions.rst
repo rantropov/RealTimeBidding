@@ -1,3 +1,24 @@
+To be sent out
+==============
+
+Dear professor Jiang,
+
+My name is Yubo Zhou, a MASc candidate in Computer Science. My research topic is about computational advertising and audience targeting. I'm using deeping learning in my thesis, but I have couple questions about deep learning and neural networks. Could you give me some advices?
+
+I'm using deep learning to predict click through rate (CTR) [1] for impressions (ads) and rank them. The system has to be deployed in real-time scenario, the performance is very important, so I introduced a pre-training phase. What does the pre-training phase do is bassically feature selection.
+The benefits of feature selection is not only because it reduces the training time but also includes following assumptions:
+
+1. If ANN is sensitive to noise, than the model will benefit from feature selection because the feature selection filters noisy features and prevent over-fitting.
+2. If we can determine the correlation between features, we can find the optimal number of layers and hidden neurons in order to maximize the performance without losing accuracy (also avoid over-fitting).
+
+
+
+
+
+
+[1] Zhang, Weinan, Tianming Du, and Jun Wang. "Deep Learning over Multi-field Categorical Data: A Case Study on User Response Prediction." arXiv preprint arXiv:1601.02376 (2016).
+
+
 
 2016-01-07 with Professor Wolfgang
 ==================================

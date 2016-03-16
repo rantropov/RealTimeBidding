@@ -411,7 +411,7 @@ References
 
 [61] Raeder, Troy, et al. "Scalable supervised dimensionality reduction using clustering." Proceedings of the 19th ACM SIGKDD international conference on Knowledge discovery and data mining. ACM, 2013.
 
-
+[62] Settles, Burr. "Active learning literature survey." University of Wisconsin, Madison 52.55-66 (2010): 11.
 
 
 
